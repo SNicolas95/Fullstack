@@ -1,0 +1,49 @@
+.container{
+    background-color: bisque;
+      
+}
+
+.caja{
+    width: 100px;
+    height: 100px;
+    color: black;
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.uno{
+    background-color: green;
+}
+
+.dos{
+    background-color: darksalmon;
+}
+
+.tres{
+    background-color: azure;
+}
+
+.cuatro{
+    background-color: gray;
+}
+
+.cinco{
+    background-color: lightskyblue;
+}
+
+.seis{
+    background-color: mediumslateblue;
+}
+
+.cuadrado{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    padding: 2rem;
+    border: solid 0.1rem black;
+    margin: 1rem 2rem 3rem 4rem;
+    overflow: auto;
+}
