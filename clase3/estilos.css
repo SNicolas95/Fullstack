@@ -1,17 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container{
     background-color: bisque;
-      
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
 }
+
+.container_dos{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
 
 .caja{
     width: 100px;
     height: 100px;
     color: black;
     display: inline-block;
-    margin: 1rem;
     padding: 1rem;
     text-align: center;
     border: 1px solid black;
+    margin: 1rem;
 }
 
 .uno{
@@ -38,12 +53,107 @@
     background-color: mediumslateblue;
 }
 
+.siete{
+    background-color: aliceblue;
+}
+
+.ocho{
+    background-color: brown;
+}
+
+.nueve{
+    background-color: darkkhaki;
+}
+
+.diez{
+    background-color: darkturquoise;
+}
+
+.once{
+    background-color: salmon;
+}
+.red{
+    color: blueviolet;
+}
+
 .cuadrado{
     height: 200px;
     width: 200px;
     background-color: aquamarine;
-    padding: 2rem;
+    padding: 1rem;
     border: solid 0.1rem black;
-    margin: 1rem 2rem 3rem 4rem;
+    margin: 1rem 2rem 2rem 1rem;
     overflow: auto;
+}
+
+/* ----------------------------------HARRY POTTER--------------------------------- */
+
+*{
+    box-sizing: border-box;
+}
+.encabezado{
+    background-image: url(https://media1.popsugar-assets.com/files/thumbor/HqrZXh3jEhkEjFN6Z-EtVGaKwM8/0x152:1456x752/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/03/12/843/n/1922794/7c7bc8cb5e6a8a22db5343.56462009_.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 15rem;
+}
+.menusuperior{
+    list-style: none;
+    text-align: center;
+}
+
+.menusuperior li{
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.contenedor_uno{
+    padding: 1rem;
+    background-color: rgb(198, 139, 132);
+    width: 70%;
+    float: left;
+}
+/* .contenedor_dos{
+    background-color: bisque;
+    padding: 1rem;
+    margin: 1rem;
+} */
+
+.contenido_imagen{
+    width: 50%;
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+
+.contenido_imagen img{
+    width: 50%;
+    box-shadow: 5px 5px rgba(200, 196, 196, 0.5)
+}
+
+.contenido_sugerencias{
+    float: right;
+    background-color: cyan;
+    width: 30%;
+    height: 100vh;
+    padding: 2rem;
+    line-height: 2rem;
+}
+
+.libro_sugerencia{
+    width: 90%;
+}
+
+.libro_sugerencia img{
+    width: 100%;
+    padding: 1rem;
+}
+.pie{
+    clear: both;
+    background-color: brown;
+    color: white;
 }
