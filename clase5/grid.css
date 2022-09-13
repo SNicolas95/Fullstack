@@ -1,0 +1,47 @@
+#grilla{
+    display: grid;
+    grid-template-areas:
+    "nav header header"
+    "nav productos publicidad"
+    "nav servicios publicidad"
+    "nav footer footer";
+    grid-template-rows: 10rem 3rem 2rem 5rem;
+    grid-template-columns: 1fr 7fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    height: 100vh;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.header{
+    background-color: bisque;
+    grid-area: header;
+}
+
+.section_1{
+    background-color: blueviolet;
+    grid-area: productos;
+}
+
+.section_2{
+    background-color: lightcoral;
+    grid-area: servicios;
+}
+
+.aside{
+    background-color: lightsteelblue;
+    grid-area: publicidad;
+}
+
+.nav{
+    background-color: powderblue;
+    grid-area: nav;
+}
+
+.footer{
+    background-color: dimgray;
+    grid-area: footer;
+}
