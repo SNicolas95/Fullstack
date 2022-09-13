@@ -1,3 +1,9 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
 .enviarform{
     background-color: bisque;
     font-weight: 500;
@@ -13,10 +19,11 @@
     background-color: #e7e7e7;
     margin: 1rem auto;
     width: 40%;
+    text-align: center;
 }
-.formulario input, .formulario textarea, .formulario select{
+.formulario input:not([type=radio]), .formulario textarea, .formulario select{
     margin-bottom: 2rem;
-    width: 100%;
+    width: 60%;
 }
 .fieldset{
     border-radius: 5px;
@@ -24,4 +31,15 @@
 
 .contacto{
     width: 100%;
+}
+
+.uruguay{
+    display: flex;
+}
+.pais{
+    margin-left: 1rem;
+}
+
+.uruguay input[type=radio]{
+    margin-left: 3rem;
 }
