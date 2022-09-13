@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header id="arriba" class="encabezado">
+        <nav>
+            <ul class="menusuperior">
+                <li><a href=""></a>Home</li>
+                <li><a href=""></a>Personajes</li>
+                <li><a href=""></a>Contacto</li>
+                <li><a href=""></a>Nosotros</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--------------------------------------------------- Formulario-------------------------------------------------------------------- -->
+    <section class="contacto">
+        <form action="https://formspree.io/f/mgeqogwy" method="post" class="formulario">
+
+            <fieldset class="fieldset">
+                <!-- Usamos la clase para darle un borde al formulario -->
+                <legend>Complete el formulario de contacto</legend>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
+                    <!-- El id es opcional, el nombre es obligatorio -->
+                </div>
+                <label for="correo">Correo electronico</label>
+                <input type="email" name="correo" id="correo" placeholder="Ingresa tu email" required>
+                <div>
+                    <label for="clave">Contrase;a</label>
+                    <input type="password" name="clave" id="clave" placeholder="Ingresa tu contrasena" required>
+                </div>
+                <label for="nacimiento">Fecha de nacimiento</label>
+                <input type="date" name="nacimiento" required>
+                <div>
+                    <input type="submit" value="Enviar formulario" class="enviarform">
+                    <input type="reset" value="Resetear">
+                </div>
+                <div>
+                    <select name="talles" id="talles">
+                        <option value="large">Large</option>
+                        <option value="medium">Medium</option>
+                        <option value="small">Small</option>
+                        <option value="x-small">X-small</option>
+                    </select>
+
+                    <div>
+                        <label for="pais">Argentina</label>
+                        <input type="radio" name="pais" value="Argentina">
+                        <label for="pais">Paraguay</label>
+                        <input type="radio" name="pais" value="Paraguay">
+                        <label for="pais">Uruguay</label>
+                        <input type="radio" name="pais" value="Uruguay">
+                    </div>
+                </div>
+                <div>
+                    <p><label for="area">Area de texto</label></p>
+                    <textarea name="area" id="area" cols="30" rows="8" placeholder="Escriba aqui su comentario"
+                        minlength="20" maxlength="150"></textarea>
+                </div>
+
+                <label for="acepta">Acepta los terminos y condiciones</label>
+                <input type="checkbox" name="acepta" id="acepta" value="1" required>
+            </fieldset>
+
+        </form>
+
+        <!-- Mix y maxlength son para establecer un maximo y minimo de caracteres -->
+    </section>
+
+</body>
+
+</html>

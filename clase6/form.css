@@ -1,0 +1,27 @@
+.enviarform{
+    background-color: bisque;
+    font-weight: 500;
+}
+
+.enviarform:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.formulario{
+    padding: 5rem;
+    background-color: #e7e7e7;
+    margin: 1rem auto;
+    width: 40%;
+}
+.formulario input, .formulario textarea, .formulario select{
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.fieldset{
+    border-radius: 5px;
+}
+
+.contacto{
+    width: 100%;
+}
