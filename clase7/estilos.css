@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* MOBILE FIRST */
+
+.tienda{
+    text-align: center;
+    background-color: brown;
+    padding: 2rem;
+}
+
+.tienda img{
+    width: 70%;
+    padding: 1rem;
+}
+
+body{
+    background-color: aqua;
+}
+
+.comunidad{
+    background-color: rgb(133, 174, 133);
+    text-align: center;
+    padding: 1rem;
+}
+
+.comunidad img{
+    width: 70%;
+}
+
+.texto, .footer{
+    color: white;
+    padding: 1rem;
+}
+
+.footer{
+    background-color: black;
+}
+
+/* TABLETAS */
+
+@media(min-width:768px){
+    .comunidad{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .comunidad img{
+        width: 60%;
+    }
+}
+
+@media(min-width:1200px){
+    .comunidad{
+        display: flex;
+    }
+    .comunidad div{
+        width: 100%;
+    }
+}
