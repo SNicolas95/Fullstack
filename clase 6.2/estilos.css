@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+}
+
+body{
+    margin: 5rem 25rem;
+    width: 50%;
+}
+
+.formulariocaja{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    width: 100%;
+    text-align: center;
+}
+.container{
+    border-radius: 20px;
+}
+
+.formulariocaja input{
+    border:none;
+    border-bottom: 2px solid black;
+}
+
+form h3{
+    text-align: center;
+    padding: 2rem;
+}
+
+form legend{
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.cajas{
+    text-align: center;
+    width: 100%;
+}
+
+.cajas label{
+    /* padding-right: 1rem;
+    text-align: left; */
+    padding-left: 2rem;
+}
+
+.cajas input{
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}

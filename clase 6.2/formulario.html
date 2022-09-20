@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@500;600;700&family=Nunito:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset class="container">
+            <legend>Registro</legend>
+            <h3>Complete el formulario</h3>
+
+            <div class="formulariocaja">
+
+                <div class="cajas">
+                    <label for="nombre">Nombre</label><input type="text" name="nombre">
+                </div>
+
+                <div class="cajas">
+                    <label for="apellido">Apellido</label><input type="text" name="apellido">
+                </div>
+                <div class="cajas">
+                    <label for="nacimiento">Fecha de nacimiento</label><input type="date" name="nacimiento">
+                </div>
+                <div class="cajas">
+                    <label for="password">Password</label><input type="password" name="password">
+                </div>
+                <div class="cajas">
+                    <label for="email">Email</label><input type="email" name="email">
+                </div>
+                <div class="cajas">
+                    <label for="country">Pais</label>
+                   <select name="country" id="country">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Uruguay">Uruguay</option>
+                </select>
+                </div>
+                <div class="cajas uno">
+                    <input type="submit" name="submit" id="submit" value="Enviar">
+                </div>
+                <div class="cajas uno">
+                    <input type="reset" name="reset" id="reset" value="Reset">
+                </div>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
